@@ -16,3 +16,11 @@ header{
     font-family: 'Gagalin', sem serifa;
     /*font-family:Barlow;*/
 }
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40 px; para os lados zero*/
+}
