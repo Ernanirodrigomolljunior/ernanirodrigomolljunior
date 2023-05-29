@@ -24,3 +24,13 @@ main{
 form{
     margin: 40px 0; /*margem superior e inferior de 40 px; para os lados zero*/
 }
+
+form label, form p{/*Vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+
+display: block;
+front-size: 20px;
+margin: 0 0 10px;/* 10px para baixo*/   
+    
+
+
+}
