@@ -69,3 +69,15 @@ margin: 0 0 10px;/* 10px para baixo*/
         font-size: 13px;
         margin: 10px 0 0;
             
+footer{
+    text-align: center;
+    background-image: url("bg.jpg")
+    /*Esta propriedade é utilizada para inserir imagens
+      como plano de fundo de um elemento.
+      Para isso, fazemos uso da função url().
+      para a qual passamos como parâmetro o
+      caminho da imagem a ser inserida.*/
+        
+        padding: 10px 0;
+        }
+        
