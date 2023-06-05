@@ -1,5 +1,5 @@
 header{
-    background-color: ;
+    background-color: f
     padding: 20px;
 }
 
@@ -41,3 +41,31 @@ margin: 0 0 10px;/* 10px para baixo*/
     margin: 20px 0; /* 20px p/ cima e p/baixo e zero nas laterais*/
 
 }
+    
+    input: :placeholder { color: red;
+    }    
+.checkbox{matgin: 20px 0;
+    /* 20px p/ cima e p/baixo é zero nas laterais*/
+    
+    .enviar{
+        width:40%;
+        padding: 15px 0;
+        background: orange;
+        font-weight: bold;
+        font-size: 10px;
+        border: none;
+        border-radius: 5px;
+        transtion: 1% all;
+        cursor: pointer;
+    }
+    
+    .enviar:hover{
+        background: darkorange;
+        transform: scale(1.2);
+    }
+    
+    .copyright {
+        color: #FFFFFF;
+        font-size: 13px;
+        margin: 10px 0 0;
+            
