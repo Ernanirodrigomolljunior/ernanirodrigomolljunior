@@ -15,6 +15,24 @@ header{
     font-size: 35px;
     font-family: 'Gagalin', sem serifa;
     /*font-family:Barlow;*/
+    color:#FFFFFFF;
+    /*A propriedade text-shadow acrescenta sombras ao texto.
+    Ele aceita uma lista de sombras separadas por virgula que seria apliacos ao texto e ao text decorations do elemento.*/
+    color: #000;
+    text-shadow:
+        -1px -1px 0px #FFA500,
+        -1px 4px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px  0px 0px #FFF,
+        /*font-family: "Gagalin. sem serifa*/
+        /*font-family:Barlow:*/
+        
+   nav{
+       postion: absolute;
+       /*posicionamentos dos links*/
+       top: 180px;
+       right: 50px;
+    }
 }
 main{
     width: 940px;
@@ -37,6 +55,9 @@ margin: 0 0 10px;/* 10px para baixo*/
     padding: 10px 25px; /* 10px p/ cima e p/baixo e 25px p/ os lados*/
     width: 50%; /*largura dos meus inputs*?
     }
+    
+    input: placeholder{ color: darkblue;} 
+    
 >checkbox{
     margin: 20px 0; /* 20px p/ cima e p/baixo e zero nas laterais*/
 
