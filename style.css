@@ -1,84 +1,128 @@
-body{
-    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.box{
-    color: white;
-    position: absolute;
-    top:55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
-    border-radius: 15px;
-    width: 30%;
-}
-
-fieldset{
-    border:3px solid dodgerblue;
-}
-
-legend{
-    border: 1px solid dodgerblue;
-    padding: 10px;
-    text-aling: center;
-    background-color: dodgerblue;
-    border-radius: 8px;
-}
-
-.inputbox{
-    position: relative;
-}
-.inputUser{
-    background:none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    front-size: 15px;
-    width: 100%;
-    Letter-spacing: 2px;
-    
-    
-}
-
-.labelinput{/* animação das labels- nessa parte as labels irá se encaixar dentro dos inputs */
-    postion:absolute; /* vai ocupar apenas o elemento dela mesma */
-    top: 0px;
-    left: 0px;
-    pointer-events: none;/* qualquer lugar que eu clicar dentro do input, ele vai executar a ação */
-    trasition: 5px;/* transição - para criação de efeitos de animação personalizado*/
-}
-/*Quando clicar no input eu quero que a label vai para cima do input - por isso a ação é no input*/
-
-.inputUser:focus ~.labelinput, /*executar uma ação na nossa label*/
-.inputUser:valid labelinput{ /*quando o input tiver valido, eu quero que ele execute essa ação para a label - a informação irá permanecer no input, senão irá ficar por cima */
-    
-    top: -20px;
-     font-size: 20px;
-    color: dodgerblue;
-}
- #data_nascimento{
-     border:none;
-     padding: 8px;
-     border-radius: 10px;
-     outline: none;
-     font-size: 15px;
-     
-     
-}
-#enviar{ background-image: linear-gradient (to right, rgb(0, 92, 192), rgb(90, 20, 220));
-    width: 100%;
-    border: none; /*tirar borda do botão enviar*?
-    padding; 15px;
-    color: white;
-    front-size: 15px;
-    cursor: pointer; /*Qdo passar o mouse porcima do botão enviar, muda o cursor*/
-    border-radius: 10px;
-}
-
-#enviar:hover{
-    background-image: linear-gradient(to right, rgb(0, 92, 192), rgb(90, 20, 195));
-    ?*Qdo passar o mouse por cima do botão enviar, ira aplicar esse azul um pouco mais
-}
-    
+.l1 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1B1464;
+    color: rgb(27, 20, 100);
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+  }
+  .navbar-brand {
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  a {
+    color: #007bff;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  }
+  :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  .l2 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: #006837;
+    color: rgb(0, 104, 55);
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+  }
+  .navbar-brand {
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  a {
+    color: #007bff;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  }
+  :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }

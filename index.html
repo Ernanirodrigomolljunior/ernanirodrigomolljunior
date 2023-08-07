@@ -1,81 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <title>CSS externo(Formulário)_13-17-24</title>
+    <title>Formulario de cursos</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
+
 <body>
-        <header><!--cabeçalho-->
-        
-        </header>
-        <main><!--meio-->
-            <section>
-                 <form>
-                    <fieldset>
-                        <legend><strong>Formulario de Clientes </strong></legend>
-                        <br>
+    <pre>
+    <form method="post" action="">
+        Name<input type="text" name="nome" size="40" maxlength=15 placeholder="digite nome completo">
+        Data Nacimento<input type="date" name="nome">
+        RG: <input type="text" size="10">
+        Email<input type="email" name="email" size="50">
+        telefone <input type="tel" name="telefone">
+        <input type="password" size="10" maxlength="10" placeholder="digite numeros">
+        cidade: <select name="cidade">
+            <option>Cascavel</option>
+            <option>Corbelia</option>
+            <option>Foz do Iguacu</option>
+            <option>Londrina</option>
 
-                        <section>
-                            <input type="text" name="nome" id="nome" class="inputuser" required>
-                            <label for="name" class="labelinput">Nome completo</label>
-                        </section>
-                        <br><br>
+        </select>
+        Curso<input type="checkbox" nome="curso" value="adm">Administracao
+        <input type="checkbox" nome="curso" value="Eletro">Eletronica
+        <input type="checkbox" nome="curso" value="info">Informatica
+        Periodo<input type="radio" value="matutino" name="periodo">matutino
+        <input type="radio" value="verspertino" name="periodo">vespertino
+        <input type="radio" value="noturno" name="periodo">noturno
 
-                        <section>
-                            <input type="text" name="email" id="email" class="inputuser" required>
-                            <label for="email" class="labelinput">Email</label>
-                        </section>
-                        <br><br>
+        <input type="submit" name="enviar" value="gravar">
+        <input type="reset" name="apagar" value="deletar">
+        <a class="navbar-brand" href="https://www.ceepcascavel.com.br/">
+            <span class="l1">CEE</span>
+            <span class="l2">P</span></a>
 
-                        <section>
-                            <input type="tel" name="telefone" id="telefone" class="inputuser" required>
-                            <label for="telefone" class="labelinput">telefone</label>
-                        </section>
-                        <p>Sexo</p>
-                        <input type="radio" name="genero" id="feminino" value="feminino">
-                        <label for="feminino">Feminino</label>
-                        <br>
-                        <input type="radio" name="genero" id="masculino" value="masculino">
-                        <label for="masculino">Masculino</label>
-                        <br>
-                        <input type="radio" name="genero" id="outro" value="outro">
-                        <label for="outro">Outro</label>
-                        <br><br>
-
-                        <label for="data_nascimento"><strong>Data de nascimento</strong></label>
-                        <input type="date" name="data_nascimento" id="data_nascimento" required>
-                        <br><br><br>
-
-                        <section>
-                            <input type="text" name="cidade" id="cidade" class="inputuser" requider>
-                            <label for="cidade" class="labelinput">cidade</label>
-                        </section> 
-
-                        <br><br>
-
-                        <section>
-                            <input type="text" name="estado" id="estado" class="inputuser" requider>
-                            <label for="estado" class="labelinput">Estado</label>
-                        </section>    
-                            <br><br>
-                        
-                            <section>
-                                <input type="text" name="endereço" id="endereço" class="inputuser" requider>
-                                <label for="endereço" class="labelinput">Endereço</label>
-                            </section>
-
-                            <br><br>
-
-                            <input type="submit" value="Enviar Formulario" id="enviar">
-
-
-                    </fieldset>
-                 </form>
-            </section>
-        </main>
-        <footer><!--rodapé-->
-            <p class="copyright.">&copy; Copyright Ernani rodrigo moll junior - 2023</p>    
-        </footer>
-</body>
-</html>
+    </form>
+    </pre>
+    </body>
+    </html>
