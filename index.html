@@ -10,13 +10,15 @@
 
 <body>
     <pre>
-    <form method="post" action="">
-        Name<input type="text" name="nome" size="40" maxlength=15 placeholder="digite nome completo">
-        Data Nacimento<input type="date" name="nome">
-        RG: <input type="text" size="10">
-        Email<input type="email" name="email" size="50">
-        telefone <input type="tel" name="telefone">
-        <input type="password" size="10" maxlength="10" placeholder="digite numeros">
+     <fieldset>
+        <legend>Formulario de curso</legend>
+     <form method="post" action="">
+        Name<input type="text"  class="input-padrao" name="nome" size="40" maxlength=15 placeholder="digite nome completo">
+        Data Nacimento<input  class="input-padrao" type="date" name="nome">
+        RG: <input type="text"  class="input-padrao" size="10">
+        Email<input type="email"  class="input-padrao" name="email" size="50">
+        telefone <input type="tel"  class="input-padrao" name="telefone">
+        <input type="password"  class="input-padrao" size="10" maxlength="10" placeholder="digite numeros">
         cidade: <select name="cidade">
             <option>Cascavel</option>
             <option>Corbelia</option>
@@ -24,20 +26,22 @@
             <option>Londrina</option>
 
         </select>
-        Curso<input type="checkbox" nome="curso" value="adm">Administracao
+        Curso<input type="checkbox"  nome="curso" value="adm">Administracao
         <input type="checkbox" nome="curso" value="Eletro">Eletronica
         <input type="checkbox" nome="curso" value="info">Informatica
         Periodo<input type="radio" value="matutino" name="periodo">matutino
         <input type="radio" value="verspertino" name="periodo">vespertino
         <input type="radio" value="noturno" name="periodo">noturno
 
-        <input type="submit" name="enviar" value="gravar">
+        <input type="submit" name="enviar" value="gravar" id="enviar">
         <input type="reset" name="apagar" value="deletar">
         <a class="navbar-brand" href="https://www.ceepcascavel.com.br/">
             <span class="l1">CEE</span>
             <span class="l2">P</span></a>
 
-    </form>
-    </pre>
-    </body>
-    </html>
+     </form>
+     </fieldset>
+     </pre>
+</body>
+
+</html>
