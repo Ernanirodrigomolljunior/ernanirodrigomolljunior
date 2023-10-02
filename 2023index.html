@@ -9,20 +9,21 @@
         <p> Aqui vai o resultado </p>
         <p> Aprendendo usar <strong>Dom</strong> </p>
         <div>Clique em mim</div>
-        
+
      <script>
 
-        var a=window.document.GetElementsByTagName('p')[0]
+        var p1=window.document.getElementsByTagName('p')[1]
         window.document.write(p1.innerText)
 
-        window.document.write(p1.innerHtml)
+        window.document.write(p1.innerHTML)
+
         p1.style.color='blue'
 
-        p1.style.TextAling='Center'
+        p1.style.textAlign='Center'
 
         var corpo=window.document.body
 
-        corpo.style.backgroundColor='red'
+        corpo.style.backgroundColor='purple'
         corpo.style.color="white"
 
     </script>
